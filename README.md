@@ -1,17 +1,9 @@
-# Results From Pan CLEF19 Test Datasets 
+### Notebook Publish link: (https://pan.webis.de/downloads/publications/papers/ashraf_2019.pdf)
 
-| Dataset | lang |  type  | gender |
-|---------|------|--------|--------|
-|    1    |  es  | 0.8611 | 0.7556 |
-|    1    |  en  | 0.9280 | 0.7652 |
-|    2    |  es  | 0.8839 | 0.7261 |
-|    2    |  es  | 0.9227 | 0.7583 |
+#   Bots and Gender Prediction Using Language Independent Stylometry-Based Approach  
 
+- Identify Author of text on bases of their stylometry and writing style.
 
-
-# Pan Author Identification (Bots and Gender Profiling)
-
-Identify Author of text on bases of their stylometry and writing style.
 
 ## Installation
 
@@ -37,7 +29,7 @@ python test.py -i 'testdatapath' -o 'outputpath'
 python test.py -i '/input/test/data/'  -o '/output/'
 ```
 
-## Features Selected :
+## Stylistic Features :
 ```
 1. emoji_count -> Count all kind Kind of emojis
 2. face_smiling -> Count 😀😃😄😁😆😅🤣😂🙂🙃😉😊😇
@@ -171,6 +163,16 @@ Best Model **RandomForestClassifier**
 |   micro avg   |    0.78   |   0.78   |   0.78    |   450
 |   macro avg   |    0.79   |   0.78   |   0.78    |   450
 |weighted avg   |    0.79   |   0.78   |   0.78    |   450
+
+# Results From Pan CLEF19 Test Datasets 
+
+
+| Dataset | lang |  type  | gender |
+|---------|------|--------|--------|
+|    1    |  es  | 0.8611 | 0.7556 |
+|    1    |  en  | 0.9280 | 0.7652 |
+|    2    |  es  | 0.8839 | 0.7261 |
+|    2    |  es  | 0.9227 | 0.7583 |
 
 
 
